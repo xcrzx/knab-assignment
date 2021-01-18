@@ -6,18 +6,9 @@
     ```sh
     echo "CMC_PRO_API_KEY=<YOUR_KEY>" > .env
     ```
-1. Run the script using
+1. Start dev server
     ```sh
-    yarn run get-rates BTC
-    ```
-    Sample output:
-    ```
-    1 BTC =
-    $31,727.45
-    €25,803.07
-    R$163,181.18
-    £23,264.05
-    A$41,099.13 
+    yarn dev
     ```
 1. To run tests use
     ```sh
